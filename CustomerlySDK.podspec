@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
   s.author             = { "Paolo Musolino" => "info@codeido.com" }
   s.social_media_url   = "https://www.facebook.com/customerly/"
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/customerly/Customerly-iOS-SDK.git", :tag => s.version }
   s.source_files  = "CustomerlySDK/Library/**/*.swift"
   s.resource_bundles = {
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.frameworks  = "UIKit", "Foundation", "AudioToolbox"
   s.requires_arc = true
   s.dependency 'ObjectMapper', '3.3.0'
-  s.dependency 'Kingfisher', '4.10.0'
+  s.dependency 'Kingfisher', '5.0.1'
   s.dependency 'Socket.IO-Client-Swift', '13.3.0'
 end

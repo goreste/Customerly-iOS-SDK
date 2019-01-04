@@ -76,7 +76,7 @@ class CyMessageTableViewCell: UITableViewCell {
         }
         
         for url in imagesAttachments{
-            let imageViewAttachment = CyImageView()
+            var imageViewAttachment = CyImageView()
             imageViewAttachment.kf.indicatorType = .activity
             imageViewAttachment.kf.setImage(with: URL(string: url))
             imageViewAttachment.contentMode = .scaleAspectFill
